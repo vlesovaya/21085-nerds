@@ -1,7 +1,8 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Valentina Lesovaya](https://up.htmlacademy.ru/htmlcss/20/user/21085).
-* Наставник: [Ирина Малиновская] (https://up.htmlacademy.ru/htmlcss/20/user/29644).
+* Наставник: [Ирина Малиновская](https://up.htmlacademy.ru/htmlcss/20/user/29644).
+
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
