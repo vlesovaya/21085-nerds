@@ -11,62 +11,109 @@
       <img src="img/index-logo.svg" width="120" height="80" alt="Логотип веб-студии Нердс">
     </a>
     <ul class="site-navigation">
-      <li><a href="about.html">СТУДИЯ</a></li>
-      <li><a href="customers.html">КЛИЕНТЫ</a></li>
-      <li class="site-navigation-shop">МАГАЗИН</li>
-      <li><a href="contacts.html">КОНТАКТЫ</a></li>
-    </ul>
-    <ul class="user-navigation">
-      <li><a href="shop-cart.html">КОРЗИНА</a></li>
+      <li><a href="about.html">студия</a></li>
+      <li><a href="customers.html">клиенты</a></li>
+      <li class="site-navigation-shop">магазин</li>
+      <li><a href="contacts.html">контакты</a></li>
+      <li><a href="shop-cart.html">корзина</a></li>
     </ul>
   </nav>
 </header>
-<main class="container">
+<main>
+<section class="shop">
   <h1 class="page-title">Магазин готовых шаблонов</h1>
-  <section class="filters">
-    <ul class="filters-list">
-      <li class="filter-price">СТОИМОСТЬ:</li>
-      <!--Здесь будет форма-->
-      <li class="filters-item">СОРТИРОВАТЬ:</li>
-      <li><a class="button" href="price.html">ПО ЦЕНЕ</a></li>
-      <li><a class="button" href="type.html">ПО ТИПУ</a></li>
-      <li><a class="button" href="price.html">ПО НАЗВАНИЮ</a></li>
-    </ul>
+  <section class="filters-shop">
+    <h2 class="visualy-hidden">Фильтр товаров</h2>
+    <section class="filters-features">
+      <div class="features-list">
+        <h3>стоимость:</h3>
+      </div>
+    </section>
   </section>
-  <section class="catalog">
+      <!--Здесь будет форма-->
+    <section class="filters-pattern">
+      <div class="pattern-filter">
+        <h3>сортировать:</h3>
+        <ul class="filters-item">
+        <li><a class="button" href="price.html">по цене</a></li>
+        <li><a class="button" href="type.html">по типу</a></li>
+        <li><a class="button" href="price.html">по названию</a></li>
+        </ul>
+      </div>
+    </section>
+  <div class="pattern-catalog">
     <ul class="catalog-list">
       <li class="catalog-item">
-        <h3>SEDONA</h3>
+        <h3>sedona</h3>
         <p>Информационный сайт для туристов</p>
         <a class="button" href="catalog-item.html">9 900 РУБ.</a>
+        <img src="http://placehold.it/150x100" alt="#">
+      </li>
+      <li class="catalog-item">
+        <h3>pink</h3>
+        <p>Мобильное приложение</p>
+        <a class="button" href="catalog-item.html">9 900 РУБ.</a>
+        <img src="http://placehold.it/150x100" alt="#">
+      </li>
+      <li class="catalog-item">
+        <h3>Barbershop Borodinski</h3>
+        <p>Мужская парихмахерская</p>
+        <a class="button" href="catalog-item.html">9 900 РУБ.</a>
+        <img src="http://placehold.it/150x100" alt="#">
+      </li>
+      <li class="catalog-item">
+        <h3>Mishka</h3>
+        <p>Милые штучки ручной работы для дома</p>
+        <a class="button" href="catalog-item.html">9 900 РУБ.</a>
+        <img src="http://placehold.it/150x100" alt="#">
+      </li>
+      <li class="catalog-item">
+        <h3>A+</h3>
+        <p>Курсы переквалификации</p>
+        <a class="button" href="catalog-item.html">9 900 РУБ.</a>
+        <img src="http://placehold.it/150x100" alt="#">
+      </li>
+      <li class="catalog-item">
+        <h3>Кваст</h3>
+        <p>Магазин крафтового кваса</p>
+        <a class="button" href="catalog-item.html">9 900 РУБ.</a>
+        <img src="http://placehold.it/150x100" alt="#">
       </li>
     </ul>
-    <!--Здесь будут остальные макеты-->
+  </div>
+    <section class="pattern-pagination">
     <ul class="pagination-list">
       <li class="pagination-item pagination-item-current"><a>1</a></li>
       <li class="pagination-item"><a href="#">2</a></li>
       <li class="pagination-item"><a href="#">3</a></li>
-      <li class="pagination-item"><a href="#">СЛЕДУЮЩАЯ</a></li>
+      <li class="pagination-item"><a href="#">Следующая</a></li>
     </ul>
+    </section>>
   </section>
 </main>
 <footer class="main-footer">
-  <p class="footer-contacts">
-  <h3>NËRDS DESIGN STUDIO</h3>
-  <p>191186, Санкт-Петербург,<br>
-    ул. Б. Конюшенная, д. 19/8<br>
-    <br>
-    тел. +7 (812) 275-75-75
-  </p>
-  <a class="button" href="message">НАПИШИТЕ НАМ</a>
-  <div class="footer-cocial">
-    <b>Давайте дружить, это выгодно!</b>
-    <p>Скидка 10% для друзей из социальных сетей.</p>
+  <div class="footer-map">
+    <h2 class="visualy-hidden">Контакты</h2>
+    <img src="map.jpg" alt="Как нас найти">
+    <p class="footer-contacts">
+    <h3>Nërds design studio</h3>
+    <p>191186, Санкт-Петербург,<br>
+      ул. Б. Конюшенная, д. 19/8<br>
+      <br>
+      тел. +7 (812) 275-75-75
+    </p>
+    <a class="button" href="message">Напишите нам</a>
+  </div>
+  <div class="footer-social">
     <ul>
       <li><a class="social-button" href="#">Вконтакте</a></li>
       <li><a class="social-button" href="#">Фейсбук</a></li>
       <li><a class="social-button" href="#">Инстаграм</a></li>
     </ul>
+  </div>
+  <div class="footer-discount">
+    <b>Давайте дружить, это выгодно!</b>
+    <p>Скидка 10% для друзей из социальных сетей.</p>
   </div>
 </footer>
 </body>
