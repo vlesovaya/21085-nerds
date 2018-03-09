@@ -6,6 +6,7 @@
 </head>
 <body>
 <header class="main-header">
+  <div class="container">
   <nav class="main-navigation">
     <a class="main header-logo">
       <img src="img/index-logo.svg" width="120" height="80" alt="Логотип веб-студии Нердс">
@@ -18,49 +19,59 @@
       <li><a href="shop-cart.html">корзина</a></li>
     </ul>
   </nav>
+  </div>
 </header>
-<main class="container">
-  <div class="sliders">
+<main>
+  <section class="sliders">
+    <div class="container">
     <!--Слайдер-->
     <div class="sliders-slider">
     <b>Долго, дорого, скрупулезно.</b>
-    <p>Математически выверенный дизайн для вашего сайта или мобильного приложения</p>
-    <a class="button" href="description.html">УЗНАТЬ БОЛЬШЕ</a>
-    <img src="img.jpg" alt="#">
+    <p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
+    <a class="button" href="description.html">Узнать больше</a>
+    <img src="img.jpg" alt="Узнать больше">
     </div>
     <div class="sliders-slider">
-      <b>Долго, дорого, скрупулезно.</b>
-      <p>Математически выверенный дизайн для вашего сайта или мобильного приложения</p>
-      <a class="button" href="description.html">УЗНАТЬ БОЛЬШЕ</a>
-      <img src="img.jpg" alt="#">
+      <b>Любим математику как никто другой.</b>
+      <p>Никакого креатива, только математические формулы  для расчета идеальных пропорций.</p>
+      <a class="button" href="description.html">Узнать больше</a>
+      <img src="img.jpg" alt="Узнать больше">
     </div>
     <div class="sliders-slider">
-      <b>Долго, дорого, скрупулезно.</b>
-      <p>Математически выверенный дизайн для вашего сайта или мобильного приложения</p>
-      <a class="button" href="description.html">УЗНАТЬ БОЛЬШЕ</a>
-      <img src="img.jpg" alt="#">
+      <b>Только ночь, только хардкор.</b>
+      <p>Работать днем, как все? Мы против этого. Ближе к полуночи работа только начинается.</p>
+      <a class="button" href="description.html">Узнать больше</a>
+      <img src="img.jpg" alt="Узнать больше">
     </div>
   </div>
+  </section>
   <section class="products">
+    <div class="container">
     <ul class="products-list">
       <li class="products-item">
+        <img src="web.jpg" alt="Веб-сайты">
         <h3>Веб-сайты</h3>
         <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
-        <a class="button" href="order">Заказать</a>
+        <a class="button" href="order.html">Заказать</a>
       </li>
       <li class="products-item">
+        <img src="apps.jpg" alt="Приложения">
         <h3>Приложения</h3>
         <p>Покорите топ-10 приложений в AppStore и GooglePlay</p>
-        <a class="button" href="order">Заказать</a>
+        <a class="button" href="order.html">Заказать</a>
       </li>
       <li class="products-item">
+        <img src="presentations.jpg" alt="Презентации">
         <h3>Презентации</h3>
         <p>Вы даже не подозреваете, насколько вы изумительны!</p>
-        <a class="button" href="order">ЗАКАЗАТЬ</a>
+        <a class="button" href="order.html">Заказать</a>
       </li>
     </ul>
+    </div>
   </section>
   <section class="description">
+    <div class="container">
+      <div class="description-left">
     <b>Мы - маленькая, но гордая дизайн-студия из Краснодара.</b>
     <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
     <b>Выполняем заказы на разработку:</b>
@@ -75,8 +86,10 @@
         <p>Слайдшоу и видео для корпоративных презентаций</p>
       </li>
     </ul>
+      </div>
+      <div class="description-right">
   <a class="description-logo">
-    <img src="img/index-logo.svg" width="380" height="260" alt="Логотип веб-студии Нердс">
+    <img src="img/index-logo.svg" width="360" height="208" alt="Логотип веб-студии Нердс">
   </a>
   <p>С 2004 года любим точность во всем:</p>
   <ul class="description-percent">
@@ -93,8 +106,11 @@
       <p>Минимальная предоплата</p>
     </li>
   </ul>
+    </div>
+    </div>
   </section>
   <section class="partners">
+    <div class="container">
     <h2 class="visualy-hidden">Партнеры</h2>
     <ul class="parents-list">
       <li class="parents-item"><a href="htmlacademy.html">Html Academy</a></li>
@@ -102,32 +118,38 @@
       <li class="parents-item"><a href="pink.html">Pink</a></li>
       <li class="parents-item"><a href="mishka.html">Mishka</a></li>
     </ul>
+    </div>
   </section>
 </main>
 <footer class="main-footer">
-  <div class="footer-map">
-    <h2 class="visualy-hidden">Контакты</h2>
-    <img src="map.jpg" alt="Как нас найти">
-  <p class="footer-contacts">
-  <h3>Nërds design studio</h3>
-    <p>191186, Санкт-Петербург,<br>
-    ул. Б. Конюшенная, д. 19/8<br>
-    <br>
-    тел. +7 (812) 275-75-75
-  </p>
-  <a class="button" href="message">Напишите нам</a>
+<div class="footer-map">
+  <div class="container">
+    <div id="map">
+      <img src="map.jpg" width="1440" height="416" alt="Как нас найти">
+      <div class="footer-contact">
+        <h2 class="visualy-hidden">Контакты</h2>
+        <h3>Nërds design studio</h3>
+        <p>191186, Санкт-Петербург,<br>
+          ул. Б. Конюшенная, д. 19/8<br>
+          <br>
+          тел. +7 (812) 275-75-75
+        </p>
+        <a class="button" href="message">Напишите нам</a>
+      </div>
+    </div>
   </div>
-  <div class="footer-social">
-    <ul>
-      <li><a class="social-button" href="#">Вконтакте</a></li>
-      <li><a class="social-button" href="#">Фейсбук</a></li>
-      <li><a class="social-button" href="#">Инстаграм</a></li>
-    </ul>
-  </div>
-  <div class="footer-discount">
-     <b>Давайте дружить, это выгодно!</b>
-     <p>Скидка 10% для друзей из социальных сетей.</p>
-  </div>
+</div>
+<div class="footer-social">
+  <ul>
+    <li><a class="social-button" href="#">Вконтакте</a></li>
+    <li><a class="social-button" href="#">Фейсбук</a></li>
+    <li><a class="social-button" href="#">Инстаграм</a></li>
+  </ul>
+</div>
+<div class="footer-discount">
+  <b>Давайте дружить, это выгодно!</b>
+  <p>Скидка 10% для друзей из социальных сетей.</p>
+</div>
 </footer>
 </body>
 </html>

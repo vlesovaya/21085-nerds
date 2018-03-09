@@ -6,80 +6,96 @@
 </head>
 <body>
 <header class="main-header">
-  <nav class="main-navigation">
-    <a class="main header-logo">
-      <img src="img/index-logo.svg" width="120" height="80" alt="Логотип веб-студии Нердс">
-    </a>
-    <ul class="site-navigation">
-      <li><a href="about.html">студия</a></li>
-      <li><a href="customers.html">клиенты</a></li>
-      <li class="site-navigation-shop">магазин</li>
-      <li><a href="contacts.html">контакты</a></li>
-      <li><a href="shop-cart.html">корзина</a></li>
-    </ul>
-  </nav>
+  <div class="container">
+    <nav class="main-navigation">
+      <a class="main header-logo">
+        <img src="img/index-logo.svg" width="120" height="80" alt="Логотип веб-студии Нердс">
+      </a>
+      <ul class="site-navigation">
+        <li><a href="about.html">студия</a></li>
+        <li><a href="customers.html">клиенты</a></li>
+        <li><a href="shop.html">магазин</a></li>
+        <li><a href="contacts.html">контакты</a></li>
+        <li><a href="shop-cart.html">корзина</a></li>
+      </ul>
+    </nav>
+  </div>
 </header>
 <main>
 <section class="shop">
+  <div class="shop-title">
   <h1 class="page-title">Магазин готовых шаблонов</h1>
-  <section class="filters-shop">
+  </div>
+  <section class="shop-filter">
+    <div class="container">
+  <div class="filter-left">
     <h2 class="visualy-hidden">Фильтр товаров</h2>
-    <section class="filters-features">
-      <div class="features-list">
+    <div class="filter-feature">
+      <div class="feature-list">
         <h3>стоимость:</h3>
       </div>
-    </section>
-  </section>
+    </div>
+  </div>
       <!--Здесь будет форма-->
-    <section class="filters-pattern">
+    <section class="filter-pattern">
       <div class="pattern-filter">
         <h3>сортировать:</h3>
-        <ul class="filters-item">
+        <ul class="filter-item">
         <li><a class="button" href="price.html">по цене</a></li>
         <li><a class="button" href="type.html">по типу</a></li>
         <li><a class="button" href="price.html">по названию</a></li>
         </ul>
       </div>
     </section>
-  <div class="pattern-catalog">
-    <ul class="catalog-list">
-      <li class="catalog-item">
+  <div class="product-items">
+    <div class="product-item">
+      <img src="img/item-1.jpg" height="240" width="240" alt="Макет сайта Sedona">
+      <div class="item-description">
         <h3>sedona</h3>
         <p>Информационный сайт для туристов</p>
-        <a class="button" href="catalog-item.html">9 900 РУБ.</a>
-        <img src="http://placehold.it/150x100" alt="#">
-      </li>
-      <li class="catalog-item">
+        <a class="button" href="price-item.html">9 900 РУБ.</a>
+      </div>
+    </div>
+      <div class="product-item">
+        <img src="img/item-2.jpg" height="240" width="240" alt="Макет сайта Pink">
+        <div class="item-description">
         <h3>pink</h3>
         <p>Мобильное приложение</p>
-        <a class="button" href="catalog-item.html">9 900 РУБ.</a>
-        <img src="http://placehold.it/150x100" alt="#">
-      </li>
-      <li class="catalog-item">
+        <a class="button" href="price-item.html">9 900 РУБ.</a>
+        </div>
+      </div>
+    <div class="product-item">
+      <img src="img/item-3.jpg" height="240" width="240" alt="Макет сайта Barbershop Borodinski">
+      <div class="item-description">
         <h3>Barbershop Borodinski</h3>
         <p>Мужская парихмахерская</p>
-        <a class="button" href="catalog-item.html">9 900 РУБ.</a>
-        <img src="http://placehold.it/150x100" alt="#">
-      </li>
-      <li class="catalog-item">
+        <a class="button" href="price-item.html">9 900 РУБ.</a>
+      </div>
+    </div>
+    <div class="product-item">
+      <img src="img/item-4.jpg" height="240" width="240" alt="Макет сайта Mishka">
+      <div class="item-description">
         <h3>Mishka</h3>
         <p>Милые штучки ручной работы для дома</p>
-        <a class="button" href="catalog-item.html">9 900 РУБ.</a>
-        <img src="http://placehold.it/150x100" alt="#">
-      </li>
-      <li class="catalog-item">
+        <a class="button" href="price-item.html">9 900 РУБ.</a>
+      </div>
+    </div>
+    <div class="product-item">
+      <img src="img/item-5.jpg" height="240" width="240" alt="Макет сайта курсов">
+      <div class="item-description">
         <h3>A+</h3>
         <p>Курсы переквалификации</p>
-        <a class="button" href="catalog-item.html">9 900 РУБ.</a>
-        <img src="http://placehold.it/150x100" alt="#">
-      </li>
-      <li class="catalog-item">
+        <a class="button" href="price-item.html">9 900 РУБ.</a>
+      </div>
+    </div>
+    <div class="product-item">
+      <img src="img/item-6.jpg" height="240" width="240" alt="Макет магазина кваса">
+      <div class="item-description">
         <h3>Кваст</h3>
         <p>Магазин крафтового кваса</p>
-        <a class="button" href="catalog-item.html">9 900 РУБ.</a>
-        <img src="http://placehold.it/150x100" alt="#">
-      </li>
-    </ul>
+        <a class="button" href="price-item.html">9 900 РУБ.</a>
+      </div>
+    </div>
   </div>
     <section class="pattern-pagination">
     <ul class="pagination-list">
@@ -88,21 +104,28 @@
       <li class="pagination-item"><a href="#">3</a></li>
       <li class="pagination-item"><a href="#">Следующая</a></li>
     </ul>
-    </section>>
+    </section>
+    </div>
   </section>
+</section>
 </main>
 <footer class="main-footer">
   <div class="footer-map">
-    <h2 class="visualy-hidden">Контакты</h2>
-    <img src="map.jpg" alt="Как нас найти">
-    <p class="footer-contacts">
-    <h3>Nërds design studio</h3>
-    <p>191186, Санкт-Петербург,<br>
-      ул. Б. Конюшенная, д. 19/8<br>
-      <br>
-      тел. +7 (812) 275-75-75
-    </p>
-    <a class="button" href="message">Напишите нам</a>
+    <img src="map.jpg" width="1440" height="416" alt="Как нас найти">
+    <div class="container">
+      <div id="map">
+        <div class="footer-contact">
+          <h2 class="visualy-hidden">Контакты</h2>
+          <h3>Nërds design studio</h3>
+          <p>191186, Санкт-Петербург,<br>
+            ул. Б. Конюшенная, д. 19/8<br>
+            <br>
+            тел. +7 (812) 275-75-75
+          </p>
+          <a class="button" href="message">Напишите нам</a>
+        </div>
+      </div>
+    </div>
   </div>
   <div class="footer-social">
     <ul>
