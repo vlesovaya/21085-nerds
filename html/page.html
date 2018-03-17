@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="../css/style.css" media="screen" />
 <html lang="ru">
 <head>
   <meta charset="utf-8">
@@ -10,7 +11,7 @@
   <div class="container">
     <nav class="main-navigation">
       <a class="main header-logo">
-        <img src="img/nerds-logo.svg" width="160" height="65" alt="Логотип веб-студии Нердс">
+        <img src="../img/nerds-logo.svg" width="160" height="65" alt="Логотип веб-студии Нердс">
       </a>
       <ul class="site-navigation">
         <li><a href="about.html">студия</a></li>
@@ -23,77 +24,77 @@
   </div>
 </header>
 <main>
-<section class="shop">
-  <div class="shop-title">
-  <h1 class="page-title">Магазин готовых шаблонов</h1>
-  </div>
-  <section class="shop-filter">
-    <div class="container">
-      <div class="filter-left">
-        <h2 class="visualy-hidden">Фильтр товаров</h2>
-        <div class="filter-price">
-          <!--<div class="price-list"></div>-->
-          <form>
-            <fieldset>
-              <legend>Стоимость:</legend>
+  <section class="shop">
+    <div class="shop-title">
+      <h1 class="page-title">Магазин готовых шаблонов</h1>
+    </div>
+    <section class="shop-filter">
+      <div class="container">
+        <div class="filter-left">
+          <h2 class="visualy-hidden">Фильтр товаров</h2>
+          <div class="filter-price">
+            <!--<div class="price-list"></div>-->
+            <form>
+              <fieldset>
+                <legend>Стоимость:</legend>
                 <div class="price-list-1">
                   <input type="range" min="0" max="15000" step="1" value="10000">
                 </div>
-              <div class="prise-list-2">
-                <span>От</span><input type="text" id="minprice" step="1" value="0">
-                <span>До</span><input type="text" id="maxprice" step="1" value="15000">
-              </div>
-              <div class="filter-grid">
-                <legend>Сетка:</legend>
-                <p><input type="radio" name="grid" value="adaptive" checked>Адаптивная</p>
-                <p><input type="radio" name="grid" value="fixed">Фиксированная</p>
-                <p><input type="radio" name="grid" value="rubber">Резиновая</p>
-              </div>
-              <div class="filter-features">
-                <legend>Особенности:</legend>
-                <p><input type="checkbox" name="feature" value="slider" checked>Слайдер</p>
-                <p><input type="checkbox" name="feature" value="advantage-block">Блок преимуществ</p>
-                <p><input type="checkbox" name="feature" value="news" checked>Новости</p>
-                <p><input type="checkbox" name="feature" value="gallery">Галерея</p>
-                <p><input type="checkbox" name="feature" value="cart">Корзина</p>
-              </div>
-              <div class="button">
-                <input type="submit" value="Показать">
-              </div>
-            </fieldset>
-          </form>
+                <div class="prise-list-2">
+                  <span>От</span><input type="text" id="minprice" step="1" value="0">
+                  <span>До</span><input type="text" id="maxprice" step="1" value="15000">
+                </div>
+                <div class="filter-grid">
+                  <legend>Сетка:</legend>
+                  <p><input type="radio" name="grid" value="adaptive" checked>Адаптивная</p>
+                  <p><input type="radio" name="grid" value="fixed">Фиксированная</p>
+                  <p><input type="radio" name="grid" value="rubber">Резиновая</p>
+                </div>
+                <div class="filter-features">
+                  <legend>Особенности:</legend>
+                  <p><input type="checkbox" name="feature" value="slider" checked>Слайдер</p>
+                  <p><input type="checkbox" name="feature" value="advantage-block">Блок преимуществ</p>
+                  <p><input type="checkbox" name="feature" value="news" checked>Новости</p>
+                  <p><input type="checkbox" name="feature" value="gallery">Галерея</p>
+                  <p><input type="checkbox" name="feature" value="cart">Корзина</p>
+                </div>
+                <div class="button">
+                  <input type="submit" value="Показать">
+                </div>
+              </fieldset>
+            </form>
+          </div>
         </div>
       </div>
+    </section>
+    <div class="templates-filter">
+      <h3>Cортировать:</h3>
+      <ul class="filter-item">
+        <li><a class="button" href="price.html">по цене</a></li>
+        <li><a class="button" href="type.html">по типу</a></li>
+        <li><a class="button" href="price.html">по названию</a></li>
+      </ul>
     </div>
   </section>
-  <div class="templates-filter">
-    <h3>Cортировать:</h3>
-    <ul class="filter-item">
-      <li><a class="button" href="price.html">по цене</a></li>
-      <li><a class="button" href="type.html">по типу</a></li>
-      <li><a class="button" href="price.html">по названию</a></li>
-    </ul>
-  </div>
-</section>
   <div class="templates">
     <div class="templates-item">
-      <img src="img/sedona.jpg" width="360" height="576" alt="Макет сайта Sedona">
+      <img src="../img/sedona.jpg" width="360" height="576" alt="Макет сайта Sedona">
       <div class="item-description">
         <h3>Sedona</h3>
         <p>Информационный сайт для туристов</p>
         <a class="button" href="price-item.html">9 900 РУБ.</a>
       </div>
     </div>
-      <div class="templates-item">
-        <img src="img/pink.jpg" width="360" height="576" alt="Макет сайта Pink">
-        <div class="item-description">
+    <div class="templates-item">
+      <img src="../img/pink.jpg" width="360" height="576" alt="Макет сайта Pink">
+      <div class="item-description">
         <h3>Pink</h3>
         <p>Мобильное приложение</p>
         <a class="button" href="price-item.html">9 900 РУБ.</a>
-        </div>
       </div>
+    </div>
     <div class="templates-item">
-      <img src="img/barbershop.jpg" width="360" height="576" alt="Макет сайта Barbershop Borodinski">
+      <img src="../img/barbershop.jpg" width="360" height="576" alt="Макет сайта Barbershop Borodinski">
       <div class="item-description">
         <h3>Barbershop Borodinski</h3>
         <p>Мужская парихмахерская</p>
@@ -101,7 +102,7 @@
       </div>
     </div>
     <div class="templates-item">
-      <img src="img/mishka.jpg" width="360" height="576" alt="Макет сайта Mishka">
+      <img src="../img/mishka.jpg" width="360" height="576" alt="Макет сайта Mishka">
       <div class="item-description">
         <h3>Mishka</h3>
         <p>Милые штучки ручной работы для дома</p>
@@ -109,7 +110,7 @@
       </div>
     </div>
     <div class="templates-item">
-      <img src="img/aplus.jpg" width="360" height="576" alt="Макет сайта курсов переквалификации">
+      <img src="../img/aplus.jpg" width="360" height="576" alt="Макет сайта курсов переквалификации">
       <div class="item-description">
         <h3>A+</h3>
         <p>Курсы переквалификации</p>
@@ -117,7 +118,7 @@
       </div>
     </div>
     <div class="templates-item">
-      <img src="img/kvast.jpg" width="360" height="576" alt="Макет магазина кваса">
+      <img src="../img/kvast.jpg" width="360" height="576" alt="Макет магазина кваса">
       <div class="item-description">
         <h3>Кваст</h3>
         <p>Магазин крафтового кваса</p>
@@ -125,18 +126,18 @@
       </div>
     </div>
   </div>
-    <section class="templates-pagination">
+  <section class="templates-pagination">
     <ul class="pagination-list">
       <li class="pagination-item pagination-item-current"><a>1</a></li>
       <li class="pagination-item"><a href="#">2</a></li>
       <li class="pagination-item"><a href="#">3</a></li>
       <li class="pagination-item"><a href="#">Следующая</a></li>
     </ul>
-    </section>
+  </section>
 </main>
 <footer class="main-footer">
   <div class="footer-map">
-    <img src="img/map-and-marker.jpg" width="1440" height="416" alt="Как нас найти">
+    <img src="../img/map-and-marker.jpg" width="1440" height="416" alt="Как нас найти">
     <div class="container">
       <div id="map">
         <div class="footer-contact">
