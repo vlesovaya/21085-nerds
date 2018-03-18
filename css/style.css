@@ -24,8 +24,8 @@ a {
   background-color: #eeeeee;
 }
 
-.mine-navigation,
-.site-navigation {
+.site-navigation,
+.user-navigation {
   list-style: none;
 }
 
@@ -75,26 +75,6 @@ a {
   text-align: left;
 }
 
-.products-list,
-.products-item {
-  list-style: none;
-}
-
-.products-item h3 {
-  font-size: 24px;
-  line-height: 30px;
-  text-transform: uppercase;
-  font-weight: bold;
-  text-align: left;
-
-}
-
-.products-item p {
-  font-size: 16px;
-  line-height: 24px;
-  text-align: left;
-}
-
 a.more {
   display: inline-block;
   text-decoration: none;
@@ -108,6 +88,76 @@ a.more {
   height: 50px;
   padding-top: 25px;
   border-radius: 3px;
+}
+
+.products-list {
+  list-style: none;
+}
+
+.products-list h3 {
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: left;
+
+}
+
+.products-list p {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  color: #000000;
+}
+
+.products-list a {
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 18px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.products-item-1 .order-1 {
+  background-color: #fb565a;
+}
+
+.products-item-2 .order-2 {
+  background-color: #00ca74;
+}
+
+.products-item-3 .order-3 {
+  background-color: #efc84a;
+}
+
+.products-item-1 a:hover,
+.order-1 a:hover {
+  background-color: #e74246;
+}
+
+.products-item-2 a:hover,
+.order-2 a:hover {
+  background-color: #00bc6c;
+}
+
+.products-item-3 a:hover,
+.order-3 a:hover {
+  background-color: #eab534;
+}
+
+.products-item-1 a:focus,
+.order-1 a:focus {
+  background-color: #d7373b;
+}
+
+.products-item-2 a:focus,
+.order-2 a:focus {
+  background-color: #00aa62;
+}
+
+.products-item-3 a:focus,
+.order-3 a:focus {
+  background-color: #e5a722;
 }
 
 /*a.order {*/
@@ -148,12 +198,6 @@ a.more {
   /*color-opacity: 0.5;*/
 /*}*/
 
-.products-item,
-a {
-  text-transform: uppercase;
-  font-size: 16px;
-  line-height: 18px;
-}
 
 .description-left b {
   font-size: 45px;
@@ -205,6 +249,24 @@ a {
   list-style: none;
 }
 
+/*Стилизация ссылок на партнеров*/
+
+.partners ul {
+  list-style: none;
+}
+
+.partners-item a {
+  opacity: 0.2;
+}
+
+.partners-item a:hover {
+  opacity: 1;
+}
+
+.partners-item a:focus {
+  opacity: 0.1;
+}
+
 .footer-contact h3 {
   font-size: 18px;
   line-height: 30px;
@@ -241,3 +303,176 @@ a.button {
   line-height: 22px;
 }
 
+.footer-social ul {
+  list-style: none;
+}
+
+
+/*Стилизация страницы магазина*/
+
+.shop-title {
+  font-size: 55px;
+  line-height: 55px;
+}
+
+.shop-filter legend {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.prise-list-1 input {
+  width: 260px;
+  height: 80px;
+  background-color: #eeeeee;
+}
+
+.prise-list-2, span {
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.prise-list-2 input {
+  width: 80px;
+  height: 38px;
+  border-radius: 3px;
+  background-color: #eeeeee;
+  font: inherit;
+  text-align: center;
+  border: none;
+}
+
+.filter-grid p {
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.filter-grid input {
+  opacity: 0.4;
+}
+
+filter-grid input:hover[type="radio"],
+input:hover[type="radio"] {
+  opacity: 1;
+}
+
+.filter-features p {
+  ont-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.filter-features input {
+  opacity: 0.4;
+}
+
+filter-features input:hover[type="checkbox"],
+input:hover[type="checkbox"] {
+  opacity: 1;
+}
+
+.filter-button input {
+  width: 260px;
+  height: 50px;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: 500;
+
+  background-color: #eeeeee;
+  border: none;
+  border-radius: 3px;
+}
+/*Стилизация состояний кнопки. Не работает. Сделать через id?*/
+
+.filter-button input:hover [type="submit"] {
+  background-color: #dfdfdf;
+  opacity: 1;
+}
+
+.filter-button input:focus [type="submit"] {
+  color: #000000;
+  opacity: 0.3;
+  background-color: d5d5d5;
+}
+
+.templates-filter h3 {
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.templates-filter a {
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #0000000;
+}
+
+.templates-filter ul {
+  list-style: none;
+}
+
+.filter-item a {
+  text-decoration: none;
+  color: #000000;
+  opacity: 0.3;
+}
+
+.filter-item a:hover {
+  opacity: 0.6;
+}
+.filter-item a:focus {
+  opacity: 1;
+}
+
+.item-description h3 {
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.item-description p {
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.item-description a {
+  text-decoration: none;
+  color: #ffffff;
+
+  background-color: #fb565a;
+}
+
+.item-description a:hover {
+  background-color: #e74246;
+}
+
+.item-description a:focus {
+  background-color: #d7373b;
+}
+
+.templates-pagination ul {
+  list-style: none;
+}
+
+.pagination-list a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+}
+
+.pagination-list a:focus {
+  opacity: 0.3;
+}
