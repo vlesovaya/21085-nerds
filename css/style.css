@@ -75,8 +75,8 @@ a {
   text-align: left;
 }
 
+
 a.more {
-  display: inline-block;
   text-decoration: none;
   text-transform: uppercase;
   text-align: center;
@@ -86,7 +86,6 @@ a.more {
   background-color: #fb565a;
   width: 240px;
   height: 50px;
-  padding-top: 25px;
   border-radius: 3px;
 }
 
@@ -375,7 +374,7 @@ input:hover[type="checkbox"] {
   opacity: 1;
 }
 
-.filter-button input {
+.filter-button .show {
   width: 260px;
   height: 50px;
   font-family: "Roboto", Arial, sans-serif;
@@ -389,14 +388,15 @@ input:hover[type="checkbox"] {
   border: none;
   border-radius: 3px;
 }
+
 /*Стилизация состояний кнопки. Не работает. Сделать через id?*/
 
-.filter-button input:hover [type="submit"] {
+.show button:hover [type="submit"] {
   background-color: #dfdfdf;
   opacity: 1;
 }
 
-.filter-button input:focus [type="submit"] {
+.show button:focus [type="submit"] {
   color: #000000;
   opacity: 0.3;
   background-color: d5d5d5;
@@ -433,11 +433,13 @@ input:hover[type="checkbox"] {
   opacity: 1;
 }
 
-.item-description h3 {
+
+.item-description .card {
   font-family: "Roboto", Arial, sans-serif;
   font-size: 18px;
   line-height: 30px;
   font-weight: 700;
+  color: #000000;
   text-transform: uppercase;
 }
 
@@ -446,18 +448,18 @@ input:hover[type="checkbox"] {
   line-height: 18px;
 }
 
-.item-description a {
+.item-description .button {
   text-decoration: none;
   color: #ffffff;
 
   background-color: #fb565a;
 }
 
-.item-description a:hover {
+.price-button a:hover {
   background-color: #e74246;
 }
 
-.item-description a:focus {
+.price-button a:focus {
   background-color: #d7373b;
 }
 

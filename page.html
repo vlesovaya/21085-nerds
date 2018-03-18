@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<link rel="stylesheet" type="text/css" href="../css/style.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
 <html lang="ru">
 <head>
   <meta charset="utf-8">
@@ -12,7 +12,7 @@
     <div class="mine-navigation">
     <nav class="site-navigation">
       <a class="mine-header-logo" href="index.html">
-        <img src="../img/nerds-logo.svg" width="160" height="65" alt="Логотип веб-студии Нердс">
+        <img src="img/nerds-logo.svg" width="160" height="65" alt="Логотип веб-студии Нердс">
       </a>
       <ul class="user-navigation">
         <li><a href="about.html">студия</a></li>
@@ -60,7 +60,7 @@
                   <p><input type="checkbox" name="feature" value="cart">Корзина</p>
                 </div>
                 <div class="filter-button">
-                  <input type="submit" value="Показать">
+                  <button type="submit" class="show">Показать</button>
                 </div>
               </fieldset>
             </form>
@@ -79,51 +79,63 @@
   </section>
   <div class="templates">
     <div class="templates-item">
-      <img src="../img/sedona.jpg" width="360" height="576" alt="Макет сайта Sedona">
+      <img src="img/sedona.jpg" width="360" height="576" alt="Макет сайта Sedona">
       <div class="item-description">
-        <h3>Sedona</h3>
+        <a href="sedona.html" class="card">Sedona</a>
         <p>Информационный сайт для туристов</p>
-        <a class="button" href="price-item.html">9 900 РУБ.</a>
+        <div class="price-button">
+        <a href="price-item.html" class="button">9 900 РУБ.</a>
+        </div>
       </div>
     </div>
     <div class="templates-item">
-      <img src="../img/pink.jpg" width="360" height="576" alt="Макет сайта Pink">
+      <img src="img/pink.jpg" width="360" height="576" alt="Макет сайта Pink">
       <div class="item-description">
-        <h3>Pink App</h3>
+        <a href="pinkapp.html" class="card">Pink App</a>
+        <div class="price-button">
         <p>Продуктовый лендинг приложения для iOS и Android</p>
-        <a href="price-item.html">9 900 РУБ.</a>
+        <a href="price-item.html" class="button">9 900 РУБ.</a>
+        </div>
       </div>
     </div>
     <div class="templates-item">
-      <img src="../img/barbershop.jpg" width="360" height="576" alt="Макет сайта Barbershop Borodinski">
+      <img src="img/barbershop.jpg" width="360" height="576" alt="Макет сайта Barbershop Borodinski">
       <div class="item-description">
-        <h3>Barbershop Borodinski</h3>
+        <a href="barbershop.html" class="card">Barbershop Borodinski</a>
         <p>Мужская парихмахерская</p>
-        <a class="button" href="price-item.html">9 900 РУБ.</a>
+        <div class="price-button">
+        <a href="price-item.html" class="button">9 900 РУБ.</a>
+        </div>
       </div>
     </div>
     <div class="templates-item">
-      <img src="../img/mishka.jpg" width="360" height="576" alt="Макет сайта Mishka">
+      <img src="img/mishka.jpg" width="360" height="576" alt="Макет сайта Mishka">
       <div class="item-description">
-        <h3>Mishka</h3>
+        <a href="mishka.html" class="card">Mishka</a>
         <p>Милые штучки ручной работы для дома</p>
-        <a class="button" href="price-item.html">9 900 РУБ.</a>
+        <div class="price-button">
+        <a href="price-item.html" class="button">9 900 РУБ.</a>
+        </div>
       </div>
     </div>
     <div class="templates-item">
-      <img src="../img/aplus.jpg" width="360" height="576" alt="Макет сайта курсов переквалификации">
+      <img src="img/aplus.jpg" width="360" height="576" alt="Макет сайта курсов переквалификации">
       <div class="item-description">
-        <h3>A+</h3>
+        <a href="aplus.html" class="card">A+</a>
         <p>Курсы переквалификации</p>
-        <a class="button" href="price-item.html">9 900 РУБ.</a>
+        <div class="price-button">
+        <a href="price-item.html" class="button">9 900 РУБ.</a>
+        </div>
       </div>
     </div>
     <div class="templates-item">
-      <img src="../img/kvast.jpg" width="360" height="576" alt="Макет магазина кваса">
+      <img src="img/kvast.jpg" width="360" height="576" alt="Макет магазина кваса">
       <div class="item-description">
-        <h3>Кваст</h3>
+        <a href="kvast.html" class="card">Кваст</a>
         <p>Магазин крафтового кваса</p>
-        <a class="button" href="price-item.html">9 900 РУБ.</a>
+        <div class="price-button">
+        <a href="price-item.html" class="button">9 900 РУБ.</a>
+        </div>
       </div>
     </div>
   </div>
@@ -138,7 +150,7 @@
 </main>
 <footer class="main-footer">
   <div class="footer-map">
-    <img src="../img/map-and-marker.jpg" width="1440" height="416" alt="Как нас найти">
+    <img src="img/map-and-marker.jpg" width="1440" height="416" alt="Как нас найти">
     <div class="container">
       <div id="map">
         <div class="footer-contact">
