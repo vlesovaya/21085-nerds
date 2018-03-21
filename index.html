@@ -7,10 +7,11 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
 </head>
 <header class="main-header">
-  <div class="container">
-    <div class="mine-navigation">
+    <div class="main-navigation">
+      <div class="main-navigation-wrapper">
+        <div class="container">
     <nav class="site-navigation">
-      <a class="mine-header-logo" href="index.html">
+      <a class="main-header-logo" href="index.html">
         <img src="img/nerds-logo.svg" width="160" height="65" alt="Логотип веб-студии Нердс">
       </a>
       <ul class="user-navigation">
@@ -18,12 +19,14 @@
         <li><a href="customers.html">клиенты</a></li>
         <li><a href="page.html">магазин</a></li>
         <li><a href="contacts.html">контакты</a></li>
-        <li><a href="contacts.html">корзина</a></li>
       </ul>
-      <!--<div class="cart-navigation">-->
-        <!--<a href="shop-cart.html">корзина</a>-->
-      <!--</div>-->
+      <div class="shop-cart">
+        <a href="contacts.html">корзина</a>
+      </div>
     </nav>
+        </div>
+      </div>
+    </div>
   </div>
   <section class="sliders">
     <div class="container">
@@ -63,11 +66,10 @@
   </section>
   </div>
 </header>
-<main>
+<main class="container">
   <section class="products">
-    <div class="container">
+    <h2 class="visually-hidden">Наши продукты</h2>
       <ul class="products-list">
-        <h2 class="visually-hidden">Наши продукты</h2>
         <li class="products-item-1">
           <img src="img/illustration-1.jpg" width="300" height="146" alt="Веб-сайты">
           <h3>Веб-сайты</h3>
@@ -87,16 +89,13 @@
           <a href="order.html" class="order-3">Заказать</a>
         </li>
       </ul>
-    </div>
   </section>
-  <section class="description">
-    <h2 class="visually-hidden">Немного о нас</h2>
-    <div class="container">
-      <div class="description-left">
+  <div class="description">
+      <section class="description-left">
+        <h2 class="visually-hidden">Немного о нас</h2>
         <b>Мы - маленькая, но гордая дизайн-студия из Краснодара.</b>
         <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не
           покладая рук, как роботы.</p>
-      </div>
       <div class="description-orders">
         <b>Выполняем заказы на разработку:</b>
         <ul class="description-list">
@@ -111,7 +110,8 @@
           </li>
         </ul>
       </div>
-      <div class="description-right">
+      </section>
+      <section class="description-right">
         <a class="description-logo">
           <img src="img/nerds-logo-2.png" width="360" height="208" alt="Логотип веб-студии Нердс">
         </a>
@@ -130,12 +130,11 @@
             <p>Минимальная предоплата</p>
           </li>
         </ul>
-      </div>
-    </div>
-  </section>
+      </section>
+  </div>
   <section class="partners">
+    <h2 class="visually-hidden">Наши партнеры</h2>
     <div class="container">
-      <h2 class="visually-hidden">Наши партнеры</h2>
       <ul class="partners-list">
         <li class="partners-item">
           <a href="htmlacademy.html" aria-label="Html Academy"><img src="img/logo-1.png" width="199" height="68"></a>
@@ -156,10 +155,10 @@
 <footer class="main-footer">
   <div class="footer-map">
     <h2 class="visually-hidden">Как нас найти</h2>
-    <div class="container">
-      <div id="map">
+      <!--<div id="map">-->
+    <div class="map-container">
         <img src="img/map-and-marker.jpg" width="1440" height="416" alt="Как нас найти">
-        <div class="footer-contact">
+        <div class="footer-contacts">
           <h2 class="visually-hidden">Наши контакты</h2>
           <h3>Nërds design studio</h3>
           <p>191186, Санкт-Петербург,<br>
@@ -169,20 +168,23 @@
           </p>
           <a href="message.html">Напишите нам</a>
         </div>
-      </div>
     </div>
   </div>
   <div class="footer-social">
     <h2 class="visually-hidden">Мы в социальных сетях</h2>
-    <ul>
+    <div class="container">
+    <div class="social">
+    <ul class="social-button">
       <li><a class="social-button" href="#">Вконтакте</a></li>
       <li><a class="social-button" href="#">Фейсбук</a></li>
       <li><a class="social-button" href="#">Инстаграм</a></li>
     </ul>
-  </div>
-  <div class="footer-discount">
+    </div>
+    <div class="social-discount">
     <b>Давайте дружить, это выгодно!</b>
     <p>Скидка 10% для друзей из социальных сетей.</p>
+    </div>
+  </div>
   </div>
 </footer>
 </body>
