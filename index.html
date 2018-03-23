@@ -5,29 +5,29 @@
   <meta charset="utf-8">
   <title>HTML Academy: Нёрдс</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
 </head>
 <header class="main-header">
     <div class="main-navigation">
-      <div class="main-navigation-wrapper">
-        <div class="container">
-    <nav class="site-navigation">
+      <nav class="site-navigation">
       <a class="main-header-logo" href="index.html">
         <img src="img/nerds-logo.svg" width="160" height="65" alt="Логотип веб-студии Нердс">
       </a>
-      <ul class="user-navigation">
+      <div class="main-navigation-wrapper">
+        <div class="container">
+          <ul class="user-navigation">
         <li><a href="about.html">студия</a></li>
         <li><a href="customers.html">клиенты</a></li>
         <li><a href="page.html">магазин</a></li>
         <li><a href="contacts.html">контакты</a></li>
-      </ul>
-      <div class="shop-cart">
-        <a href="contacts.html">корзина</a>
-      </div>
-    </nav>
+          </ul>
+          <div class="shop-cart">
+        <li><a class="cart-link" href="contacts.html">корзина</a></li>
+          </div>
         </div>
       </div>
+      </nav>
     </div>
-  </div>
   <section class="sliders">
     <div class="container">
       <div class="sliders-slider">
@@ -66,7 +66,7 @@
   </section>
   </div>
 </header>
-<main class="container">
+<div class="container">
   <section class="products">
     <h2 class="visually-hidden">Наши продукты</h2>
       <ul class="products-list">
@@ -92,10 +92,12 @@
   </section>
   <div class="description">
       <section class="description-left">
+        <div class="description-about">
         <h2 class="visually-hidden">Немного о нас</h2>
-        <b>Мы - маленькая, но гордая дизайн-студия из Краснодара.</b>
+        <b>Мы — маленькая, но гордая дизайн-студия из Краснодара.</b>
         <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не
           покладая рук, как роботы.</p>
+        </div>
       <div class="description-orders">
         <b>Выполняем заказы на разработку:</b>
         <ul class="description-list">
@@ -115,7 +117,7 @@
         <a class="description-logo">
           <img src="img/nerds-logo-2.png" width="360" height="208" alt="Логотип веб-студии Нердс">
         </a>
-        <b>С 2004 года любим точность во всем:</b>
+        <b class="title-table">С 2004 года любим точность во всем:</b>
         <ul class="description-percent">
           <li class="description-percent-item">
             <b>146%</b>
@@ -179,10 +181,10 @@
       <li><a class="social-button" href="#">Фейсбук</a></li>
       <li><a class="social-button" href="#">Инстаграм</a></li>
     </ul>
-    </div>
     <div class="social-discount">
     <b>Давайте дружить, это выгодно!</b>
     <p>Скидка 10% для друзей из социальных сетей.</p>
+    </div>
     </div>
   </div>
   </div>
