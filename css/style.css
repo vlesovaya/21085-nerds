@@ -39,46 +39,36 @@ input[type="radio"].visually-hidden {
   overflow: hidden;
 }
 
-.main-header {
-  margin-bottom: 80px;
-}
-
-.main-header-logo {
-  position: absolute;
-  top: 20px;
-  left: 260px;
-  order: 0;
-  width: 160px;
-  height: 65px;
-}
-
 .main-navigation {
   display: flex;
   flex-direction: column;
 }
 
 .main-navigation-wrapper {
-  width: 100%;
-  margin-bottom: 35px;
-
-  background-color: #eeeeee;
+  width: calc(100%-160px)
+  display: flex;
+  justify-content: flex-end;
 }
 
-.main-navigation-wrapper .container {
+.main-navigation-wrapper {
   display: flex;
   justify-content: space-between;
   max-width: 800px;
-  margin-left: 500px;
+  margin-bottom: 35px;
 }
 
-.main-navigation {
-  font-size: 16px;
-  line-height: 30px;
-  font-weight: 500;
-  color: #000000;
-  max-width: 1160px;
 
-  background-color: #eeeeee;
+main::before,
+.header::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.site-navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .user-navigation,
@@ -99,6 +89,10 @@ input[type="radio"].visually-hidden {
 
 .shop-cart {
   max-width: 160px;
+  font-weight: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #000000;
 
   list-style: none;
 }
@@ -167,6 +161,10 @@ input[type="radio"].visually-hidden {
   background-position: 0 0;
 }
 
+.sliders {
+  margin-bottom: 85px;
+}
+
 .slider-text b {
   font-size: 55px;
   line-height: 55px;
@@ -178,7 +176,6 @@ input[type="radio"].visually-hidden {
   line-height: 24px;
   text-align: left;
 }
-
 
 a.more {
   text-decoration: none;
@@ -297,14 +294,10 @@ a.more {
   background-color: #e5a722;
 }
 
-/*.description-logo {*/
-  /*margin-left: 40px;*/
-/*}*/
-
-.description {
+.description .container {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 75px;
+  margin-bottom: 80px;
 }
 
 .description-about {
@@ -456,37 +449,10 @@ a.more {
   padding: 0;
 }
 
-/*.map-container {*/
-  /*max-width: 1440px;*/
-  /*max-height: 414px;*/
-/*}*/
-
-.map-container .contact-map {
-
-  /*display: block;*/
-  width: 1440px;
-  height: 414px;
-  align-items: center;
-  margin: 0;
-  padding-left: -140px;
+.map-container {
+  max-width: 1440px;
+  margin: auto;
 }
-
-/*.contact-map::before {*/
-  /*content: "";*/
-
-  /*position: absolute;*/
-
-  /*bottom: 218px;*/
-  /*left: -30px;*/
-
-  /*width: 1440px;*/
-  /*height: 414px;*/
-
-  /*background-image: url("../img/map-and-marker.jpg");*/
-  /*background-repeat: no-repeat;*/
-  /*background-position: 0 0;*/
-/*}*/
-
 
 .footer-contact h3 {
   font-size: 18px;
@@ -696,7 +662,6 @@ input:hover[type="checkbox"] {
   opacity: 1;
 }
 
-
 .item-description .card {
   font-family: "Roboto", Arial, sans-serif;
   font-size: 18px;
@@ -766,10 +731,6 @@ body {
   padding: 0 20px;
 }
 
-.map-container {
-  width: 1440px;
-  margin: auto;
-}
 
 .products {
   margin-bottom: 160px;

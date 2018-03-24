@@ -1,26 +1,30 @@
 <!DOCTYPE html>
-<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
 <html lang="ru">
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Нёрдс</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css" media="screen"/>
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
 </head>
 <body>
 <header class="main-header">
   <div class="container">
-    <div class="main-navigation">
     <nav class="site-navigation">
       <a class="main-header-logo" href="index.html">
         <img src="img/nerds-logo.svg" width="160" height="65" alt="Логотип веб-студии Нердс">
       </a>
-      <ul class="user-navigation">
-        <li><a href="about.html">студия</a></li>
-        <li><a href="customers.html">клиенты</a></li>
-        <li><a href="shop.html">магазин</a></li>
-        <li><a href="contacts.html">контакты</a></li>
-        <li><a href="shop-cart.html">корзина</a></li>
-      </ul>
+      <div class="main-navigation-wrapper">
+        <ul class="user-navigation">
+          <li><a href="about.html">студия</a></li>
+          <li><a href="customers.html">клиенты</a></li>
+          <li><a href="page.html">магазин</a></li>
+          <li><a href="contacts.html">контакты</a></li>
+        </ul>
+        <div class="shop-cart">
+          <a class="cart-link" href="contacts.html">корзина</a>
+        </div>
+      </div>
     </nav>
   </div>
   <section class="shop">
@@ -150,33 +154,45 @@
   </section>
 </main>
 <footer class="main-footer">
-  <div class="footer-map">
-    <img src="img/map-and-marker.jpg" width="1440" height="416" alt="Как нас найти">
-    <div class="container">
-      <div id="map">
-        <div class="footer-contact">
-          <h2 class="visualy-hidden">Контакты</h2>
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-map">
+        <h2 class="visually-hidden">Как нас найти</h2>
+        <!--<div id="map">-->
+        <div class="map-container">
+          <img src="img/map-and-marker.jpg" class="contact-map" width="1440" height="416" alt="Как нас найти">
+        </div>
+        <div class="footer-contacts">
+          <h2 class="visually-hidden">Наши контакты</h2>
           <h3>Nërds design studio</h3>
           <p>191186, Санкт-Петербург,<br>
             ул. Б. Конюшенная, д. 19/8<br>
             <br>
             тел. +7 (812) 275-75-75
           </p>
-          <a class="button" href="message">Напишите нам</a>
+          <a href="message.html" class="message-button">Напишите нам</a>
         </div>
       </div>
     </div>
-  </div>
-  <div class="footer-social">
-    <ul>
-      <li><a class="social-button" href="#">Вконтакте</a></li>
-      <li><a class="social-button" href="#">Фейсбук</a></li>
-      <li><a class="social-button" href="#">Инстаграм</a></li>
-    </ul>
-  </div>
-  <div class="footer-discount">
-    <b>Давайте дружить, это выгодно!</b>
-    <p>Скидка 10% для друзей из социальных сетей.</p>
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="footer-social">
+          <section class="social">
+            <h2 class="visually-hidden">Мы в социальных сетях</h2>
+            <ul class="social-button">
+              <li><a class="social-button" href="#">Вконтакте</a></li>
+              <li><a class="social-button" href="#">Фейсбук</a></li>
+              <li><a class="social-button" href="#">Инстаграм</a></li>
+            </ul>
+          </section>
+          <section class="social-discount">
+            <h2 class="visually-hidden">Мы даем скидки</h2>
+            <b>Давайте дружить, это выгодно!</b>
+            <p>Скидка 10% для друзей из социальных сетей.</p>
+          </section>
+        </div>
+      </div>
+    </div>
   </div>
 </footer>
 </body>

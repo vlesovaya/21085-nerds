@@ -1,21 +1,20 @@
 <!DOCTYPE html>
-<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
 <html lang="ru">
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Нёрдс</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css" media="screen"/>
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
   <link href="css/normalize.css" rel="stylesheet">
 </head>
 <body>
 <header class="main-header">
-    <div class="main-navigation">
+  <div class="container">
       <nav class="site-navigation">
       <a class="main-header-logo" href="index.html">
         <img src="img/nerds-logo.svg" width="160" height="65" alt="Логотип веб-студии Нердс">
       </a>
       <div class="main-navigation-wrapper">
-        <div class="container">
           <ul class="user-navigation">
         <li><a href="about.html">студия</a></li>
         <li><a href="customers.html">клиенты</a></li>
@@ -23,13 +22,15 @@
         <li><a href="contacts.html">контакты</a></li>
           </ul>
           <div class="shop-cart">
-        <li><a class="cart-link" href="contacts.html">корзина</a></li>
+            <a class="cart-link" href="contacts.html">корзина</a>
           </div>
-        </div>
       </div>
       </nav>
-    </div>
+  </div>
+</header>
+<main>
   <section class="sliders">
+    <h2 class="visually-hidden">Как мы работаем</h2>
     <div class="container">
       <div class="sliders-slider">
         <div class="slider-text">
@@ -65,12 +66,9 @@
       </div>
     </div>
   </section>
-  </div>
-</header>
-<main>
+<section class="products">
   <div class="container">
-    <section class="products">
-    <h2 class="visually-hidden">Наши продукты</h2>
+  <h2 class="visually-hidden">Наши продукты</h2>
       <ul class="products-list">
         <li class="products-item-1">
           <img src="img/illustration-1.jpg" width="300" height="146" alt="Веб-сайты">
@@ -91,9 +89,11 @@
           <a href="order.html" class="order-3">Заказать</a>
         </li>
       </ul>
-    </section>
-  <div class="description">
-      <section class="description-left">
+  </div>
+</section>
+<section class="description">
+  <div class="container">
+    <div class="description-left">
         <div class="description-about">
         <h2 class="visually-hidden">Немного о нас</h2>
         <b>Мы — маленькая, но гордая дизайн-студия из Краснодара.</b>
@@ -114,8 +114,8 @@
           </li>
         </ul>
       </div>
-      </section>
-      <section class="description-right">
+    </div>
+    <div class="description-right">
         <a class="description-logo">
           <img src="img/nerds-logo-2.png" width="360" height="208" alt="Логотип веб-студии Нердс">
         </a>
@@ -134,30 +134,33 @@
             <p>Минимальная предоплата</p>
           </li>
         </ul>
-      </section>
+    </div>
   </div>
-  <section class="partners">
-    <h2 class="visually-hidden">Наши партнеры</h2>
+</section>
+<section class="partners">
+  <div class="container">
+  <h2 class="visually-hidden">Наши партнеры</h2>
     <div class="container">
       <ul class="partners-list">
         <li class="partners-item">
-          <a href="htmlacademy.html" aria-label="Html Academy"><img src="img/logo-1.png" width="199" height="68"></a>
+          <a href="htmlacademy.html" aria-label="Html Academy"><img src="img/logo-1.png" width="199" height="68" alt="Html Academy"></a>
         </li>
         <li class="partners-item">
-          <a href="bardershop.html" aria-label="Bardershop Borodinski"><img src="img/logo-2.png" width="209" height="90"></a>
+          <a href="bardershop.html" aria-label="Bardershop Borodinski"><img src="img/logo-2.png" width="209" height="90" alt="Barbershop"></a>
         </li>
         <li class="partners-item">
-          <a href="pink.html" aria-label="Pink App"><img src="img/logo-3.png" width="185" height="52"></a>
+          <a href="pink.html" aria-label="Pink App"><img src="img/logo-3.png" width="185" height="52" alt="Pink App"></a>
         </li>
         <li class="partners-item">
-          <a href="mishka.html" aria-label="Mishka"><img src="img/logo-4.png" width="173" height="84"></a>
+          <a href="mishka.html" aria-label="Mishka"><img src="img/logo-4.png" width="173" height="84" alt="Mishka"></a>
         </li>
       </ul>
     </div>
-  </section>
   </div>
+</section>
 </main>
 <footer class="main-footer">
+  <div class="container">
   <div class="footer-top">
     <div class="footer-map">
       <h2 class="visually-hidden">Как нас найти</h2>
@@ -180,8 +183,8 @@
   <div class="footer-bottom">
     <div class="container">
       <div class="footer-social">
-        <h2 class="visually-hidden">Мы в социальных сетях</h2>
         <section class="social">
+          <h2 class="visually-hidden">Мы в социальных сетях</h2>
           <ul class="social-button">
             <li><a class="social-button" href="#">Вконтакте</a></li>
             <li><a class="social-button" href="#">Фейсбук</a></li>
@@ -189,11 +192,13 @@
           </ul>
         </section>
         <section class="social-discount">
+          <h2 class="visually-hidden">Мы даем скидки</h2>
           <b>Давайте дружить, это выгодно!</b>
           <p>Скидка 10% для друзей из социальных сетей.</p>
         </section>
       </div>
     </div>
+  </div>
   </div>
 </footer>
 </body>
