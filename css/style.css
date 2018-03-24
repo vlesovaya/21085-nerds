@@ -45,7 +45,7 @@ input[type="radio"].visually-hidden {
 }
 
 .main-navigation-wrapper {
-  width: calc(100%-160px)
+  width: calc(100%-160px);
   display: flex;
   justify-content: flex-end;
 }
@@ -536,14 +536,42 @@ a.message-button {
 }
 
 
-/*Стилизация страницы магазина*/
+/*СТИЛИЗАЦИЯ СТРАНИЦЫ МАГАЗИНА*/
 
-.shop-title {
-  font-size: 55px;
-  line-height: 55px;
+
+.inner-page .main-header {
+  margin-bottom: 65px;
+}
+.inner-page .site-navigation {
+  margin-bottom: 100px;
 }
 
-.shop-filter legend {
+.shop-title  h1 {
+  font-size: 55px;
+  line-height: 55px;
+  font-weight: 500;
+  padding-bottom: 115px;
+  text-align: center;
+}
+
+.catalog-colums {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+fieldset {
+  border: none;
+}
+
+.filter-left {
+  width: 260px;
+  margin-right: 140px;
+  padding: 0;
+}
+
+.filter-left legend {
   font-size: 18px;
   line-height: 30px;
   font-weight: 700;
@@ -618,6 +646,8 @@ input:hover[type="checkbox"] {
   border-radius: 3px;
 }
 
+
+
 /*Стилизация состояний кнопки. Не работает. Сделать через id?*/
 
 .show button:hover [type="submit"] {
@@ -631,18 +661,65 @@ input:hover[type="checkbox"] {
   background-color: #d5d5d5;
 }
 
-.templates-filter h3 {
+.filter-right ul {
+  list-style: none;
+}
+
+.filter-right h3 {
+  padding-right: 265px;
+}
+
+.filter-right {
+  display: flex;
+  justify-content: space-between;
+
+
+  margin: 0;
+  max-width: 700px;
+}
+
+.filter-item {
+  display: flex;
+  justify-content: space-between;
+  width: 360px;
+}
+
+.filter-right,
+.templates {
+  width: 760px;
+}
+
+.filter-right h3 {
   font-size: 18px;
   line-height: 18px;
   font-weight: 700;
   text-transform: uppercase;
 }
 
-.templates-filter a {
+.filter-right a {
   font-size: 14px;
   line-height: 18px;
   text-transform: uppercase;
   color: #000000;
+}
+
+.templates-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.tempates-item:nth-child(2n) {
+  margin-right: 0px;
+}
+
+.tempates-item {
+  width: 360px;
+  margin-bottom: 33px;
+  padding-right: 40px;
 }
 
 .templates-filter ul {
@@ -690,6 +767,8 @@ input:hover[type="checkbox"] {
 .price-button a:focus {
   background-color: #d7373b;
 }
+
+
 
 .templates-pagination ul {
   list-style: none;

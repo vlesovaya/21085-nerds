@@ -7,7 +7,7 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
   <link href="css/normalize.css" rel="stylesheet">
 </head>
-<body>
+<body class="inner-page">
 <header class="main-header">
   <div class="container">
     <nav class="site-navigation">
@@ -28,28 +28,29 @@
     </nav>
   </div>
   <section class="shop">
-    <div class="shop-title">
+    <div class="container">
+      <div class="shop-title">
       <h1 class="page-title">Магазин готовых шаблонов</h1>
+      </div>
     </div>
   </section>
 </header>
-<main>
-    <section class="shop-filter">
-      <div class="container">
-        <div class="filter-left">
-          <h2 class="visualy-hidden">Фильтр товаров</h2>
-          <div class="filter-price">
-            <!--<div class="price-list"></div>-->
-            <form>
-              <fieldset>
-                <legend>Стоимость:</legend>
-                <div class="price-list-1">
-                  <input type="range" min="0" max="15000" step="1" value="10000">
-                </div>
-                <div class="prise-list-2">
-                  <span>От</span><input type="text" id="minprice" step="1" value="0">
-                  <span>До</span><input type="text" id="maxprice" step="1" value="15000">
-                </div>
+<main class="container">
+  <div class="catalog-colums">
+      <section class="filter-left">
+        <div class="container">
+        <h2 class="visually-hidden">Фильтр товаров</h2>
+        <div class="filter-price">
+          <form>
+            <fieldset>
+              <legend>Стоимость:</legend>
+              <div class="price-list-1">
+                <input type="range" min="0" max="15000" step="1" value="10000">
+              </div>
+              <div class="prise-list-2">
+                <span>От</span><input type="text" id="minprice" step="1" value="0">
+                <span>До</span><input type="text" id="maxprice" step="1" value="15000">
+              </div>
                 <div class="filter-grid">
                   <legend>Сетка:</legend>
                   <p><input type="radio" name="grid" value="adaptive" checked>Адаптивная</p>
@@ -69,72 +70,59 @@
                 </div>
               </fieldset>
             </form>
-          </div>
         </div>
-      </div>
-    </section>
-    <div class="templates-filter">
+      </section>
+      <section class="catalog">
+        <div class="container">
+          <div class="filter-right">
       <h3>Cортировать:</h3>
       <ul class="filter-item">
         <li><a href="price.html">по цене</a></li>
         <li><a href="type.html">по типу</a></li>
         <li><a href="price.html">по названию</a></li>
       </ul>
-    </div>
-  </section>
-  <div class="templates">
-    <div class="templates-item">
-      <img src="img/sedona.jpg" width="360" height="576" alt="Макет сайта Sedona">
-      <div class="item-description">
+        </div>
+          </div>
+          <div class="templates">
+            <div class="container">
+            <ul class="templates-list">
+              <li class="tempates-item"><img src="img/sedona.jpg" width="360" height="576" alt="Макет сайта Sedona"></li>
+              <li class="tempates-item"><img src="img/pink.jpg" width="360" height="576" alt="Макет сайта Pink"></li>
+              <li class="tempates-item"><img src="img/barbershop.jpg" width="360" height="576" alt="Макет сайта Barbershop Borodinski"></li>
+              <li class="tempates-item"><img src="img/mishka.jpg" width="360" height="576" alt="Макет сайта Mishka"></li>
+              <li class="tempates-item"><img src="img/aplus.jpg" width="360" height="576" alt="Макет сайта курсов переквалификации"></li>
+              <li class="tempates-item"><img src="img/kvast.jpg" width="360" height="576" alt="Макет магазина кваса"></li>
+            </ul>
+            </div>
+          </div>
+          <div class="item-description">
         <a href="sedona.html" class="card">Sedona</a>
         <p>Информационный сайт для туристов</p>
         <div class="price-button">
         <a href="price-item.html" class="button">9 900 РУБ.</a>
         </div>
-      </div>
-    </div>
-    <div class="templates-item">
-      <img src="img/pink.jpg" width="360" height="576" alt="Макет сайта Pink">
-      <div class="item-description">
         <a href="pinkapp.html" class="card">Pink App</a>
+        <div>
         <div class="price-button">
         <p>Продуктовый лендинг приложения для iOS и Android</p>
         <a href="price-item.html" class="button">9 900 РУБ.</a>
         </div>
-      </div>
-    </div>
-    <div class="templates-item">
-      <img src="img/barbershop.jpg" width="360" height="576" alt="Макет сайта Barbershop Borodinski">
-      <div class="item-description">
-        <a href="barbershop.html" class="card">Barbershop Borodinski</a>
         <p>Мужская парихмахерская</p>
         <div class="price-button">
         <a href="price-item.html" class="button">9 900 РУБ.</a>
         </div>
-      </div>
-    </div>
-    <div class="templates-item">
-      <img src="img/mishka.jpg" width="360" height="576" alt="Макет сайта Mishka">
       <div class="item-description">
         <a href="mishka.html" class="card">Mishka</a>
         <p>Милые штучки ручной работы для дома</p>
         <div class="price-button">
         <a href="price-item.html" class="button">9 900 РУБ.</a>
         </div>
-      </div>
-    </div>
-    <div class="templates-item">
-      <img src="img/aplus.jpg" width="360" height="576" alt="Макет сайта курсов переквалификации">
       <div class="item-description">
         <a href="aplus.html" class="card">A+</a>
         <p>Курсы переквалификации</p>
         <div class="price-button">
         <a href="price-item.html" class="button">9 900 РУБ.</a>
         </div>
-      </div>
-    </div>
-    <div class="templates-item">
-      <img src="img/kvast.jpg" width="360" height="576" alt="Макет магазина кваса">
       <div class="item-description">
         <a href="kvast.html" class="card">Кваст</a>
         <p>Магазин крафтового кваса</p>
@@ -144,21 +132,24 @@
       </div>
     </div>
   </div>
-  <section class="templates-pagination">
+  <div class="templates-pagination">
     <ul class="pagination-list">
       <li class="pagination-item pagination-item-current"><a>1</a></li>
       <li class="pagination-item"><a href="#">2</a></li>
       <li class="pagination-item"><a href="#">3</a></li>
       <li class="pagination-item"><a href="#">Следующая</a></li>
     </ul>
-  </section>
+    </div>
+        </div>
+      </section>
+    </div>
+  </div>
 </main>
 <footer class="main-footer">
   <div class="container">
     <div class="footer-top">
       <div class="footer-map">
         <h2 class="visually-hidden">Как нас найти</h2>
-        <!--<div id="map">-->
         <div class="map-container">
           <img src="img/map-and-marker.jpg" class="contact-map" width="1440" height="416" alt="Как нас найти">
         </div>
