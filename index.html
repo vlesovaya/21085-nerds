@@ -7,6 +7,7 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
   <link href="css/normalize.css" rel="stylesheet">
 </head>
+<body>
 <header class="main-header">
     <div class="main-navigation">
       <nav class="site-navigation">
@@ -66,8 +67,9 @@
   </section>
   </div>
 </header>
-<div class="container">
-  <section class="products">
+<main>
+  <div class="container">
+    <section class="products">
     <h2 class="visually-hidden">Наши продукты</h2>
       <ul class="products-list">
         <li class="products-item-1">
@@ -89,7 +91,7 @@
           <a href="order.html" class="order-3">Заказать</a>
         </li>
       </ul>
-  </section>
+    </section>
   <div class="description">
       <section class="description-left">
         <div class="description-about">
@@ -142,25 +144,28 @@
           <a href="htmlacademy.html" aria-label="Html Academy"><img src="img/logo-1.png" width="199" height="68"></a>
         </li>
         <li class="partners-item">
-          <a href="bardershop.html" aria-label="Bardershop Borodinski"><img src="img/logo-2.png" width="199" height="68"></a>
+          <a href="bardershop.html" aria-label="Bardershop Borodinski"><img src="img/logo-2.png" width="209" height="90"></a>
         </li>
         <li class="partners-item">
-          <a href="pink.html" aria-label="Pink App"><img src="img/logo-3.png" width="199" height="68"></a>
+          <a href="pink.html" aria-label="Pink App"><img src="img/logo-3.png" width="185" height="52"></a>
         </li>
         <li class="partners-item">
-          <a href="mishka.html" aria-label="Mishka"><img src="img/logo-4.png" width="199" height="68"></a>
+          <a href="mishka.html" aria-label="Mishka"><img src="img/logo-4.png" width="173" height="84"></a>
         </li>
       </ul>
     </div>
   </section>
+  </div>
 </main>
 <footer class="main-footer">
-  <div class="footer-map">
-    <h2 class="visually-hidden">Как нас найти</h2>
+  <div class="footer-top">
+    <div class="footer-map">
+      <h2 class="visually-hidden">Как нас найти</h2>
       <!--<div id="map">-->
-    <div class="map-container">
-        <img src="img/map-and-marker.jpg" width="1440" height="416" alt="Как нас найти">
-        <div class="footer-contacts">
+      <div class="map-container">
+        <img src="img/map-and-marker.jpg" class="contact-map" width="1440" height="416" alt="Как нас найти">
+      </div>
+      <div class="footer-contacts">
           <h2 class="visually-hidden">Наши контакты</h2>
           <h3>Nërds design studio</h3>
           <p>191186, Санкт-Петербург,<br>
@@ -168,25 +173,27 @@
             <br>
             тел. +7 (812) 275-75-75
           </p>
-          <a href="message.html">Напишите нам</a>
-        </div>
+          <a href="message.html" class="message-button">Напишите нам</a>
+      </div>
     </div>
   </div>
-  <div class="footer-social">
-    <h2 class="visually-hidden">Мы в социальных сетях</h2>
+  <div class="footer-bottom">
     <div class="container">
-    <div class="social">
-    <ul class="social-button">
-      <li><a class="social-button" href="#">Вконтакте</a></li>
-      <li><a class="social-button" href="#">Фейсбук</a></li>
-      <li><a class="social-button" href="#">Инстаграм</a></li>
-    </ul>
-    <div class="social-discount">
-    <b>Давайте дружить, это выгодно!</b>
-    <p>Скидка 10% для друзей из социальных сетей.</p>
+      <div class="footer-social">
+        <h2 class="visually-hidden">Мы в социальных сетях</h2>
+        <section class="social">
+          <ul class="social-button">
+            <li><a class="social-button" href="#">Вконтакте</a></li>
+            <li><a class="social-button" href="#">Фейсбук</a></li>
+            <li><a class="social-button" href="#">Инстаграм</a></li>
+          </ul>
+        </section>
+        <section class="social-discount">
+          <b>Давайте дружить, это выгодно!</b>
+          <p>Скидка 10% для друзей из социальных сетей.</p>
+        </section>
+      </div>
     </div>
-    </div>
-  </div>
   </div>
 </footer>
 </body>
