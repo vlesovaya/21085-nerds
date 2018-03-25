@@ -104,7 +104,7 @@ main::before,
 
   padding-right: 20px;
   padding-left: 20px;
-  padding-top: 40px;
+  padding-top: 43px;
 }
 
 .main-navigation a,
@@ -452,7 +452,10 @@ a.more {
 .map-container {
   max-width: 1440px;
   margin: auto;
+  margin-right: 0;
+  margin-left: 0;
 }
+
 
 .footer-contact h3 {
   font-size: 18px;
@@ -576,12 +579,19 @@ fieldset {
   line-height: 30px;
   font-weight: 700;
   text-transform: uppercase;
+
+  padding-bottom: 55px;
 }
 
 .prise-list-1 input {
   width: 260px;
   height: 80px;
   background-color: #eeeeee;
+}
+
+.prise-list-2 {
+  margin-top: 15px;
+  margin-bottom: 60px;
 }
 
 .prise-list-2, span {
@@ -601,6 +611,16 @@ fieldset {
   border: none;
 }
 
+.filter-grid {
+  margin-bottom: 45px;
+}
+
+.filter-grid h3 {
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
 .filter-grid p {
   font-size: 16px;
   line-height: 20px;
@@ -614,6 +634,16 @@ fieldset {
 filter-grid input:hover[type="radio"],
 input:hover[type="radio"] {
   opacity: 1;
+}
+
+.filter-features {
+  margin-bottom: 45px;
+}
+
+.filter-features h3 {
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: uppercase;
 }
 
 .filter-features p {
@@ -631,7 +661,7 @@ input:hover[type="checkbox"] {
   opacity: 1;
 }
 
-.filter-button .show {
+.filter-button button {
   width: 260px;
   height: 50px;
   font-family: "Roboto", Arial, sans-serif;
@@ -650,7 +680,7 @@ input:hover[type="checkbox"] {
 
 /*Стилизация состояний кнопки. Не работает. Сделать через id?*/
 
-.show button:hover [type="submit"] {
+button.show:hover [type="submit"] {
   background-color: #dfdfdf;
   opacity: 1;
 }
@@ -674,7 +704,7 @@ input:hover[type="checkbox"] {
   justify-content: space-between;
 
 
-  margin: 0;
+  margin-bottom: 95px; (еще 40 сверху для иконки шапки макета)
   max-width: 700px;
 }
 
@@ -710,6 +740,7 @@ input:hover[type="checkbox"] {
   padding: 0;
 
   list-style: none;
+  margin-bottom: 60px;
 }
 
 .tempates-item:nth-child(2n) {
@@ -769,22 +800,39 @@ input:hover[type="checkbox"] {
 }
 
 
+.pagination-list {
+  display: flex;
+  justify-content: flex-start;
 
-.templates-pagination ul {
+  margin: 0;
+  padding: 0;
   list-style: none;
+}
+
+.pagination-item {
+  margin-right: 10px;
+  margin-bottom: 60px;
+}
+
+.pagination-item .page-button-next {
+  display: block;
+  padding: 13px 80px;
+
+  text-align: center;
+  color: #000000;
+  background-color: #eeeeee;
+  /*border: 3px solid #eeeeee;*/
+  border-radius: 3px;
 }
 
 .pagination-list a {
   text-decoration: none;
-  color: #000000;
+  text-transform: uppercase;
   font-size: 16px;
   line-height: 18px;
   font-weight: 500;
-  background-color: #eeeeee;
-}
 
-.pagination-list a:focus {
-  opacity: 0.3;
+  color: #000000;
 }
 
 .footer-social a {
@@ -794,6 +842,41 @@ input:hover[type="checkbox"] {
 
 .social-button {
   list-style: none;
+}
+
+.pagination-item a {
+  display: block;
+  padding: 13px 19px;
+  color: #000000;
+  border-radius: 3px;
+
+  background-color: #eeeeee;
+}
+
+.pagination-item a:hover {
+  background-color: #dfdfdf;
+}
+
+.pagination-item a:focus {
+  color: #959595;
+  background-color: #dfdfdf;
+  box-shadow: inset 0 3px 0 0 #bfbfbf;
+}
+
+.pagination-item-current a {
+  padding: 10px 16px;
+  color: #000000;
+
+  background-color: #ffffff;
+  border: 3px solid #dbdbdb;
+}
+
+.pagination-item-current a:hover,
+.pagination-item-current a:focus,
+.pagination-item-current a:active {
+  color: #000000;
+
+  background-color: #ffffff;
 }
 
 /*Сеточные стили*/
@@ -833,9 +916,6 @@ body {
 .products-item-3 {
   padding-right: 60px;
 }
-
-
-
 
 
 
