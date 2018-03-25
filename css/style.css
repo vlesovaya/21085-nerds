@@ -89,7 +89,7 @@ main::before,
 
 .shop-cart {
   max-width: 160px;
-  font-weight: 16px;
+  font-size: 16px;
   line-height: 24px;
   text-transform: uppercase;
   color: #000000;
@@ -543,7 +543,7 @@ a.message-button {
 
 
 .inner-page .main-header {
-  margin-bottom: 65px;
+  margin-bottom: 60px;
 }
 .inner-page .site-navigation {
   margin-bottom: 100px;
@@ -571,7 +571,7 @@ fieldset {
 .filter-left {
   width: 260px;
   margin-right: 140px;
-  padding: 0;
+  padding: 0px;
 }
 
 .filter-left legend {
@@ -588,11 +588,11 @@ fieldset {
 }
 
 .prise-list-2 {
-  margin-top: 15px;
-  margin-bottom: 60px;
+  margin-top: 10px;
+  margin-bottom: 55px;
 }
 
-.prise-list-2, span {
+.prise-list-2 span {
   font-size: 16px;
   line-height: 22px;
   text-transform: uppercase;
@@ -641,7 +641,7 @@ input:hover[type="radio"] {
 }
 
 .filter-features p {
-  ont-size: 16px;
+  font-size: 16px;
   line-height: 20px;
   color: #000000;
 }
@@ -696,7 +696,6 @@ button.show:hover [type="submit"] {
 .filter-right {
   display: flex;
   justify-content: space-between;
-
 
   margin-bottom: 95px; (еще 40 сверху для иконки шапки макета)
   max-width: 700px;
