@@ -919,14 +919,14 @@ button.show:hover [type="submit"] {
   margin-bottom: 60px;
 }
 
-.tempates-item:nth-child(2n) {
+.templates-item:nth-child(2n) {
   margin-right: 0px;
 }
 
-.tempates-item {
+.templates-item {
   width: 360px;
   margin-bottom: 33px;
-  padding-right: 40px;
+  padding-right: 20px;
 }
 
 .templates-filter ul {
