@@ -50,7 +50,7 @@ input[type="radio"].visually-hidden {
   padding: 0 20px;
 }
 
-.main-navigation {
+.site-navigation {
   display: flex;
   flex-direction: column;
 }
@@ -118,17 +118,23 @@ main::before,
   padding-top: 43px;
 }
 
-.main-navigation a,
+.site-navigation a,
 .user-navigation a {
   list-style: none;
   color: #000000;
   text-transform: uppercase;
 }
 
-.main-navigation a:focus,
+.site-navigation a:hover,
+.main-header-logo a:hover {
+  color: #000000;
+  opacity: 0.8;
+}
+
+.site-navigation a:focus,
 .main-header-logo a:focus {
   color: #000000;
-  opacity: 0.5;
+  opacity: 0.3;
 }
 
 .main-header,
