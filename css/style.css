@@ -595,13 +595,15 @@ main::before,
   padding: 0;
 }
 
+.footer-map {
+  margin-bottom: 70px;
+}
+
 .map-container {
   max-width: 1440px;
-  margin: auto;
   margin-right: 0;
   margin-left: 0;
 }
-
 
 .footer-contact h3 {
   font-size: 18px;
@@ -643,23 +645,38 @@ a.message-button {
   border-radius: 3px;
 }
 
+.footer-bottom {
+  margin-bottom: 70px;
+}
+
 .footer-social {
   display: flex;
   justify-content: space-between;
-  padding-top: 70px;
-  padding-bottom: 70px;
 }
 
 .social {
-  display: block;
-  width: 260px;
+  width: 280px;
   margin-right:140px;
+  text-align: center;
+}
+.social ul {
+  display: flex;
+  justify-content: space-between;
+  width: 260px;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
 }
 
 .social-button {
   display: flex;
-  justify-content: space-between;
-  margin-right: 20px;
+  align-items: center;
+  justify-content: center;
+
+  width: 80px;
+  height: 80px;
+  border-radius: 100px;
+  background-color: #e1e1e1;
 }
 
 .social-discount {
@@ -680,9 +697,6 @@ a.message-button {
   line-height: 22px;
 }
 
-.footer-social ul {
-  list-style: none;
-}
 
 
 /*СТИЛИЗАЦИЯ СТРАНИЦЫ МАГАЗИНА*/
