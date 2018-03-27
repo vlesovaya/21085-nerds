@@ -979,11 +979,11 @@ button.show:hover [type="submit"] {
   background-color: #fb565a;
 }
 
-.price-button a:hover {
+.item-description a:hover {
   background-color: #e74246;
 }
 
-.price-button a:focus {
+.item-description a:focus {
   background-color: #d7373b;
 }
 
