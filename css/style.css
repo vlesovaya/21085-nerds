@@ -899,10 +899,6 @@ input:hover[type="checkbox"] {
    outline: none;
 }
 
-
-
-/*Стилизация состояний кнопки. Не работает. Сделать через id?*/
-
 .filter-price button:hover {
   background-color: #dfdfdf;
 }
@@ -925,7 +921,7 @@ input:hover[type="checkbox"] {
   display: flex;
   justify-content: space-between;
 
-  margin-bottom: 95px; (еще 40 сверху для иконки шапки макета)
+  margin-bottom: 55px;
   max-width: 700px;
 }
 
@@ -972,6 +968,17 @@ input:hover[type="checkbox"] {
   width: 360px;
   margin-bottom: 33px;
   padding-right: 20px;
+}
+
+.templates-item span {
+  display: block;
+  margin: -7px 0;
+  padding: 0;
+  opacity: 0.12;
+}
+
+.templates-item span:hover {
+  opacity: 1;
 }
 
 .templates-filter ul {
