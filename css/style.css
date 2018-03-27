@@ -863,21 +863,21 @@ input:hover[type="checkbox"] {
   background-color: #eeeeee;
   border: none;
   border-radius: 3px;
+   outline: none;
 }
 
 
 
 /*Стилизация состояний кнопки. Не работает. Сделать через id?*/
 
-button.show:hover [type="submit"] {
+.filter-price button:hover {
   background-color: #dfdfdf;
-  opacity: 1;
 }
 
-.show button:focus [type="submit"] {
-  color: #000000;
-  opacity: 0.3;
-  background-color: #d5d5d5;
+.filter-price button:focus {
+  color: #959595;
+  background-color: #dfdfdf;
+  box-shadow: inset 0 3px 0 0 #bfbfbf;
 }
 
 .filter-right ul {
