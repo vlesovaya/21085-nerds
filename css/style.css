@@ -926,7 +926,6 @@ button {
   list-style: none;
 }
 
-
 .filter-item {
   display: flex;
   justify-content: space-between;
@@ -951,6 +950,11 @@ button {
   line-height: 18px;
   text-transform: uppercase;
   color: #000000;
+}
+
+.templates {
+  display: flex;
+  justify-content: space-between;
 }
 
 .templates-list {
