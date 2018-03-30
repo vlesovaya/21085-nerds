@@ -611,54 +611,46 @@ main::before,
   top: 0;
   z-index: 1;
   width: 100%;
-  margin-bottom: 70px;
 }
 
 .footer-map-contacts {
   display: block;
   position: absolute;
   z-index: 2;
-  top: 55px;
-  left: 160px;
-  width: 319px;
-  height: 308px;
-  background-color: #ffffff;
-  padding-bottom: 47px;
+  top: 40px;
+  left: 50%;
+  margin: 0 0 0 -600px;
+  width: 1160px;
 }
 
-.footer-map-contacts h3 {
+.footer-contacts h3 {
   font-size: 18px;
   line-height: 30px;
   font-weight: 700;
   text-transform: uppercase;
-  padding-bottom: 19px;
-  padding-top: 54px;
-  padding-right: 68px;
-  padding-left: 51px;
+
+  padding-top: 50px;
 }
 
-.footer-map-contacts p {
-  display: block;
-  font-size: 16px;
-  line-height: 18px;
-  padding-bottom: 35px;
-  padding-right: 68px;
-  padding-left: 51px;
+.footer-contacts {
+  width: 319px;
+  height: 308px;
+  background-color: #ffffff;
+  margin-bottom: 47px;
 }
 
-.footer-map-contacts
-a.button {
-  display: block;
-  font-size: 16px;
-  line-height: 18px;
-  text-transform: uppercase;
-  color: #ffffff;
+.footer-contacts h3,
+.footer-contacts p {
+  padding-left: 50px;
+}
 
-  background-color: #fb565a;
-  width: 219px;
-  height: 50px;
-  align-items: center;
-  padding-bottom: 47px;
+.footer-contacts p {
+  display: block;
+  height: 70px;
+  font-size: 16px;
+  list-style: 18px;
+  color: #8f8f8f;
+  /*padding-bottom: 35px;*/
 }
 
 a.message-button {
@@ -667,6 +659,7 @@ a.message-button {
   text-transform: uppercase;
   color: #ffffff;
   background-color: #fb565a;
+  margin-top: 35px;
 }
 
 .message-button {
@@ -675,10 +668,7 @@ a.message-button {
   vertical-align: middle;
   border: none;
   border-radius: 3px;
-}
-
-.footer-bottom {
-  margin-bottom: 70px;
+  margin-left: 50px;
 }
 
 .main-footer {
@@ -742,7 +732,7 @@ a.message-button {
 .social-discount {
   display: block;
   width: 560px;
-  margin-right: 100px;
+  margin-right: 200px;
 }
 
 .social-discount b {
