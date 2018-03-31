@@ -329,8 +329,8 @@ main::before,
   border: none;
 }
 
-.button:hover,
-.button:focus {
+slider-item-button .button:hover,
+slider-item-button .button:focus {
   background-color: #e74246;
 }
 
@@ -350,7 +350,6 @@ main::before,
   text-transform: uppercase;
   font-weight: bold;
   text-align: left;
-  /*margin-bottom: 26px;*/
 
 }
 
@@ -428,18 +427,21 @@ main::before,
 .order-1 a:focus {
   color: #e37376;
   background-color: #d7373b;
+  box-shadow: 0 3px rgba(0, 0, 0, 0.1) inset;
 }
 
 .products-item-2 a:focus,
 .order-2 a:focus {
   color: #4dc491;
   background-color: #00aa62;
+  box-shadow: 0 3px rgba(0, 0, 0, 0.1) inset;
 }
 
 .products-item-3 a:focus,
 .order-3 a:focus {
   color: #edc265;
   background-color: #e5a722;
+  box-shadow: 0 3px rgba(0, 0, 0, 0.1) inset;
 }
 
 .description .container {
@@ -1306,22 +1308,6 @@ button {
 
 /*ВСПЛЫВАЮЩАЯ ФОРМА*/
 
-/*.templates-item a {*/
-/*position: absolute;*/
-
-/*background-color: #eeeeee;*/
-/*background-position: 0 0;*/
-/*}*/
-
-/*.templates-item a {*/
-/*width: 360px;*/
-/*padding-top: 35px;*/
-/*padding-right: 80px;*/
-/*padding-bottom: 43px;*/
-/*padding-left: 80px;*/
-/*}*/
-
-
 .modal {
   position: fixed;
   color: #000000;
@@ -1329,7 +1315,7 @@ button {
   background-position: 0 0;
   background-repeat: no-repeat;
   box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
-  z-index: 3;
+  z-index: 1000;
 }
 
 .modal-write-us {
@@ -1377,6 +1363,7 @@ button {
 
 .user-form textarea {
   width: 760px;
+  resize: none
 }
 
 .user-form input[type="text"],
