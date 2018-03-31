@@ -340,9 +340,29 @@ slider-item-button .button:focus {
   box-shadow: 0 3px rgba(0, 0, 0, 0.1) inset;
 }
 
-.products-list {
-  list-style: none;
+.products {
+  margin-bottom: 42px;
 }
+
+.products-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+  padding-bottom: 80px;
+  border-bottom: 2px solid #eeeeee;
+}
+
+.products-item {
+  width: 300px;
+}
+
+.products-item-3 {
+  padding-right: 60px;
+}
+
 
 .products-list h3 {
   font-size: 24px;
@@ -568,7 +588,8 @@ slider-item-button .button:focus {
   width: 360px;
 }
 
-/*Стилизация ссылок на партнеров*/
+
+/*СТИЛИЗАЦИЯ ССЫЛОК НА ПАРТНЕРОВ*/
 
 .partners ul {
   list-style: none;
@@ -577,12 +598,21 @@ slider-item-button .button:focus {
 .partners-list {
   display: flex;
   justify-content: space-between;
-  margin-top: 45px;
+  padding-top: 65px;
+  padding-bottom: 50px;
+  /*margin-top: 45px;*/
   margin-bottom: 80px;
+  border-top: 2px solid #eeeeee;
+  border-bottom: 2px solid #eeeeee;
 }
 
 .partners-item {
   width: 260px;
+  border-right: 2px solid #eeeeee;
+}
+
+.partners-item:last-child {
+  border-right: none;
 }
 
 .partners-list a {
@@ -1283,29 +1313,6 @@ button {
   color: #000000;
 
   background-color: #ffffff;
-}
-
-/*Сеточные стили*/
-
-.products {
-  margin-bottom: 160px;
-}
-
-.products-list {
-  display: flex;
-  justify-content: space-between;
-  margin: 0;
-  padding: 0;
-
-  list-style: none;
-}
-
-.products-item {
-  width: 300px;
-}
-
-.products-item-3 {
-  padding-right: 60px;
 }
 
 /*ВСПЛЫВАЮЩАЯ ФОРМА*/
