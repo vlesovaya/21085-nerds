@@ -144,6 +144,8 @@ main::before,
 .shop-cart a {
   display: block;
   color: #000000;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   padding-top: 28px;
 }
@@ -1227,6 +1229,8 @@ input:hover[type="checkbox"] {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: flex-end;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   padding: 0;
   margin-bottom: 50px;
@@ -1252,7 +1256,11 @@ input:hover[type="checkbox"] {
 .filter-item-range {
   width: 42px;
   margin: 0 0 0 7px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
