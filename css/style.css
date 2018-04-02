@@ -994,6 +994,7 @@ a.message-button {
 legend {
   font-size: 18px;
   line-height: 30px;
+  font-family: Roboto, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   margin: 0;
@@ -1269,7 +1270,7 @@ input:hover[type="checkbox"] {
 
 .filter-item-range {
   width: 42px;
-  margin: 0 0 0 7px;
+  margin: 0 0 0 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
