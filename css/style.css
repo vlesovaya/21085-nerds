@@ -933,7 +933,7 @@ a.message-button {
   font-size: 36px;
   line-height: 36px;
   font-weight: 700;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
 
 .social-discount p {
@@ -1481,7 +1481,7 @@ input:hover[type="checkbox"] {
 
 .pagination-item .page-button-next {
   display: block;
-  padding: 13px 80px;
+  padding: 15px 80px;
 
   text-align: center;
   color: #000000;
@@ -1501,7 +1501,7 @@ input:hover[type="checkbox"] {
 
 .pagination-item a {
   display: block;
-  padding: 14px 20px;
+  padding: 15px 20px;
   color: #000000;
   border-radius: 3px;
 
@@ -1520,7 +1520,7 @@ input:hover[type="checkbox"] {
 }
 
 .pagination-item-current a {
-  padding: 10px 16px;
+  padding: 12px 17px;
   color: #000000;
 
   background-color: #ffffff;
