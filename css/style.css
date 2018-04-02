@@ -119,6 +119,9 @@ main::before,
   -ms-flex-pack: justify;
   justify-content: space-between;
   max-width: 680px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
   margin: 0;
   padding-top: 0;
   margin-left: 202px;
@@ -132,7 +135,8 @@ main::before,
 .shop-cart {
   max-width: 160px;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 30px;
+  font-weight: 500;
   text-transform: uppercase;
   color: #000000;
   float: right;
@@ -147,7 +151,7 @@ main::before,
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  padding-top: 28px;
+  padding-top: 25px;
 }
 
 .site-navigation a,
@@ -178,7 +182,8 @@ main::before,
   display: inline-block;
   text-decoration: none;
   border-bottom: 2px solid #fb565a;
-  padding-bottom: 5px;
+  padding-bottom: 3px;
+  vertical-align: center;
 }
 
 .main-header,
@@ -358,6 +363,7 @@ main::before,
 
   font-size: 16px;
   line-height: 18px;
+  font-weight: 500;
   color: #ffffff;
   text-transform: uppercase;
   text-align: center;
@@ -432,6 +438,7 @@ main::before,
   text-transform: uppercase;
   font-size: 16px;
   line-height: 18px;
+  font-weight: 500;
   text-decoration: none;
   color: #ffffff;
 }
@@ -825,6 +832,7 @@ a.message-button {
   border-radius: 3px;
   margin: 0;
   margin-left: 50px;
+  font-weight: 500;
 
 }
 
@@ -833,7 +841,7 @@ a.message-button {
   padding: 0;
 }
 
-.footer-bottom {
+.footer-social {
   margin-bottom: 75px;
 }
 
@@ -1233,7 +1241,7 @@ input:hover[type="checkbox"] {
   -ms-flex-align: center;
   align-items: center;
   padding: 0;
-  margin-bottom: 50px;
+  margin-bottom: 55px;
   max-width: 760px;
 }
 
@@ -1250,7 +1258,6 @@ input:hover[type="checkbox"] {
   -ms-flex-pack: justify;
   justify-content: space-between;
   min-width: 280px;
-
 }
 
 .filter-item-range {
@@ -1271,7 +1278,7 @@ input:hover[type="checkbox"] {
 
 .filter-right h3 {
   font-size: 18px;
-  line-height: 30px;
+  line-height: 18px;
   font-weight: 700;
   text-transform: uppercase;
   margin: 0 auto 0 0;
@@ -1428,6 +1435,7 @@ input:hover[type="checkbox"] {
   text-decoration: none;
   width: 200px;
   padding: 16px 0;
+  font-weight: 500;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -1547,6 +1555,7 @@ input:hover[type="checkbox"] {
   padding-bottom: 37px;
   font-size: 45px;
   line-height: 45px;
+  font-weight: 500;
 }
 
 .user-form {
