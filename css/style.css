@@ -264,7 +264,7 @@ main::before,
 
   border-radius: 50%;
   cursor: pointer;
-  vertical-align: center;
+  vertical-align: middle;
 }
 
 .slider-controls label::after {
@@ -455,7 +455,6 @@ main::before,
   background-color: #fb565a;
   border: none;
   border-radius: 3px;
-  vertical-align: center;
 }
 
 .products-item-2 .order-2 {
@@ -469,7 +468,6 @@ main::before,
   background-color: #00ca74;
   border: none;
   border-radius: 3px;
-  vertical-align: center;
 }
 
 .products-item-3 .order-3 {
@@ -483,7 +481,6 @@ main::before,
   background-color: #efc84a;
   border: none;
   border-radius: 3px;
-  vertical-align: center;
 }
 
 .products-item-1 a:hover,
@@ -588,7 +585,7 @@ main::before,
   margin-right: 9px;
   margin-bottom: 5px;
   margin-left: -30px;
-  vertical-align: center;
+  vertical-align: middle;
 }
 
 .description-orders p {
@@ -838,8 +835,6 @@ a.message-button {
   margin: 0;
   margin-left: 50px;
   font-weight: 500;
-  vertical-align: center;
-
 }
 
 .main-footer {
@@ -1064,7 +1059,7 @@ legend {
 
   font-size: 16px;
   text-transform: uppercase;
-  vertical-align: center;
+  vertical-align: middle;
 }
 
 .price-controls input {
@@ -1401,7 +1396,7 @@ input:hover[type="checkbox"] {
   margin-top: 35px;
   margin-bottom: 25px;
   text-decoration: none;
-  vertical-align: center;
+  vertical-align: middle;
 }
 
 .item-description {
