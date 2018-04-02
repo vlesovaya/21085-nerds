@@ -942,11 +942,11 @@ a.message-button {
 
 .inner-page .main-header {
   max-height: 305px;
-  margin-bottom: 52px;
+  margin-bottom: 56px;
 }
 
 .inner-page .site-navigation {
-  margin-bottom: 70px;
+  margin-bottom: 72px;
 }
 
 .shop-title h1 {
@@ -1260,12 +1260,13 @@ input:hover[type="checkbox"] {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  min-width: 280px;
+  width: 272px;
+  padding-right: 9px;
 }
 
 .filter-item-range {
   width: 42px;
-  margin: 0 0 0 5px;
+  margin: 0 0 0 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
