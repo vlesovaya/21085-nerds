@@ -773,11 +773,19 @@ main::before,
   z-index: 1;
   width: 100%;
 }
+.footer-map-box iframe {
+  position: absolute;
+  display: block;
+  margin: auto;
+  border: none;
+  z-index: 2;
+  width: 100%;
+}
 
 .footer-map-contacts {
   display: block;
   position: absolute;
-  z-index: 2;
+  z-index: 3;
   top: 55px;
   left: 50%;
   margin: 0 0 0 -600px;

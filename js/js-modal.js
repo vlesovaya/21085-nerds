@@ -14,6 +14,7 @@ var storage = "";
 try {
   storage = localStorage.getItem("login");
   storage = localStorage.getItem("email");
+  storage = localStorage.getItem("text")
 } catch (err) {
   isStorageSupport = false;
 }
@@ -37,7 +38,7 @@ close.addEventListener("click", function (evt) {
 });
 
 form.addEventListener("submit", function (evt) {
-  if (!login.value || !email.value) {
+  if (!login.value || !email.value || !text.value) {
     evt.preventDefault();
     popup.classList.remove("modal-error");
     popup.offsetWidth = popup.offsetWidth;
@@ -46,6 +47,7 @@ form.addEventListener("submit", function (evt) {
     if (isStorageSupport) {
       localStorage.setItem("login", login.value);
       localStorage.setItem("email", email.value);
+      localStorage.setItem("text", text.value);
     }
   }
 });
